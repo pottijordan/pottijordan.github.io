@@ -30,7 +30,7 @@ Combining SSO Providers with the ability to specify custom SAML Identity Provide
 **This technique relies on two important things:**
 
   1. In most cases, custom Identity Providers with SAML introduce an open redirect.
-  2. Many SSO providers such as Duo and Okta, allow administrators to customize emails sent from the SSO platform, typically coming from a [no-reply@<duo|okta>.com].
+  2. Many SSO providers such as Duo and Okta, allow administrators to customize emails sent from the SSO platform, typically coming from a /[no-reply@<duo/|okta>.com/].
 
 ## The phishing flow looks like this:
 
