@@ -5,8 +5,6 @@ type: post
 date: 2019-08-26T21:42:40+00:00
 url: /2019/08/26/phishing-with-saml-and-sso-providers/
 categories:
-  - Uncategorized
-tags:
   - phishing
   - red team
 
@@ -32,7 +30,7 @@ Combining SSO Providers with the ability to specify custom SAML Identity Provide
 **This technique relies on two important things:**
 
   1. In most cases, custom Identity Providers with SAML introduce an open redirect.
-  2. Many SSO providers such as Duo and Okta, allow administrators to customize emails sent from the SSO platform, typically coming from a [no-reply@<duo|okta>.com][1].
+  2. Many SSO providers such as Duo and Okta, allow administrators to customize emails sent from the SSO platform, typically coming from a [no-reply@<duo|okta>.com].
 
 ## The phishing flow looks like this:
 
@@ -333,5 +331,3 @@ Since many services are moving into the Enterprise space and adding support for 
 ### SAML Open Redirects:
 
 While testing this, I found that Google, GitLab, Duo, and Okta all allow you to use SAML for open redirects. It&#8217;s likely that nearly all services that allow you to integrate SAML with a custom Identity Provider will be similar.
-
- [1]: mailto:no-reply@%3cduo|okta%3e.com
