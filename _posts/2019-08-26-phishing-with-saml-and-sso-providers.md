@@ -9,7 +9,7 @@ categories:
   - red team
 
 ---
-<figure class="wp-block-image alignwide"><img src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png?w=688&#038;ssl=1" alt="" class="wp-image-595" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png?w=694 694w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png?resize=300%2C134 300w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" /></figure> 
+<img src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png>
 
 **Phishing is getting harder.** Email firewalls, user training and a host of endpoint controls are making phishing something that many Red Teams no longer perform. Instead, many Red Teams are using something called Assume Breach or White Carding, this allows the Red Team to skip certain portions of the initial access steps so that they can focus on other areas of the assessment. Spending two weeks on phishing could be valuable time lost inside the environment.
 
@@ -43,111 +43,23 @@ Combining SSO Providers with the ability to specify custom SAML Identity Provide
 
 To get an email to come from noreply@okta.co, we can use our Okta trial to customize the email templates for new users, this lets us determine what we want our targets to see. Below, is a new Okta user email, modified to fit our phishing needs.
 
-<div class="wp-block-image is-style-default">
-  <figure class="aligncenter is-resized"><img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png?resize=460%2C440" alt="Add Translauon 
-Default Language 
-Engllsh ten) 
-Email Preview 
-Okta MFA Device Expiration 
-okta 
-Target Organization - MFA Device Expiration 
-Hi jordan, 
-Engllsh (en) 
-Your MFA Device is expiring in 24 hours, follow this link to refresh your 
-device to avoid being locked out of your account. 
-Refresh MFA Token 
-This link expires in 7 days. 
-If you experience difficulties accessing your account, you can send a help 
-request to your system administrator using the link: 
-targetorg.okta.com/help/login 
-This is an automatically generated message from Okta Replies are not monitored or answered. " class="wp-image-554" width="460" height="440" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png?w=781 781w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png?resize=300%2C287 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png?resize=768%2C736 768w" sizes="(max-width: 460px) 100vw, 460px" data-recalc-dims="1" /><figcaption>New User email template</figcaption></figure>
-</div>
+<img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png>
 
 Now that we have our custom email template, we have two options. Place our phishing link directly in the email which will be analyzed by most email gateways, or use our other option; SAML.
 
 What we need to do here is set up a custom SAML page to point to our phishing site. Evilsite.com will be replaced with our phishing site.
 
-<div class="wp-block-image is-style-zoooom">
-  <figure class="aligncenter is-resized"><img src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2019/08/edit-identity-provider-name-protocol-t-authen-1.png?resize=414%2C466" alt="Edit Identity Provider 
-Name 
-Protocol 
-t) 
-AUTHENTICATION SETTINGS 
-IdP Username 
-Filter 
-Match against e 
-If no match is found O 
-SAML PROTOCOL SETTINGS 
-IdP Issuer URI O 
-IdP Single Sign-on URL O 
-IdP Signature Certificate 
-SAML2 
-Idpuser_subJectNameId 
-u Expresslon Language Reference 
-Only allow usernames that match defined RegEx Pattern 
-Okto username 
-Choose the user attrlbute to match agalnst the IdP username 
-C) Create new user (JIT', 
-@ Redlrectto Okto slgn-ln page 
-,'logln 
-httpsWevllslte.com 
-ST-California, C=US, OU=GoogIe For work, CN=Google, 
-L=Mountaln Vlew, 0=Google Inc 
-Certlficate explres In 1795 days 
-Show Advanced Settlngs 
-Update Identlty Provlder 
-Cancel " class="wp-image-557" width="414" height="466" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2019/08/edit-identity-provider-name-protocol-t-authen-1.png?w=825 825w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2019/08/edit-identity-provider-name-protocol-t-authen-1.png?resize=267%2C300 267w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2019/08/edit-identity-provider-name-protocol-t-authen-1.png?resize=768%2C864 768w" sizes="(max-width: 414px) 100vw, 414px" data-recalc-dims="1" /><figcaption>SAML Settings Page</figcaption></figure>
-</div>
+<img src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2019/08/edit-identity-provider-name-protocol-t-authen-1.png>
 
 Once we enter these details, we are given an Assertion URL, this URL will point to Okta but will redirect immediately to our phishing site we just specified.
 
-<div class="wp-block-image is-style-zoooom">
-  <figure class="aligncenter is-resized"><img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png?resize=523%2C192" alt="Add Identlty Provlder 
-Name 
-test 
-IdP ID 
-SAML metadata 
-Assertion 
-Consumer Service 
-URL 
-Audience URI 
-Account Mode 
-sso 
-Profile Master 
-Q Search 
-Actlons 
-Type 
-sam12 
-Configure 
-ooaq3csxIcc6N5Yg0356 
-Download metadata 
-https://JordanpottLokta.com/sso/sam12,'Ooaq3csxlcc6N5Yg0356 
-https:/'Wwwokta com}sam12/servlce-provlder/sppnodrqoozkoruqymoo 
-Show More " class="wp-image-559" width="523" height="192" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png?w=1015 1015w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png?resize=300%2C111 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png?resize=768%2C283 768w" sizes="(max-width: 523px) 100vw, 523px" data-recalc-dims="1" /><figcaption>SAML Settings and Links</figcaption></figure>
-</div>
+<img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png>
 
 Now we need to copy the Assertion Consumer Service URL and go back to the email template we initially setup. Paste the Assertion link into the link for the Refresh MFA Token link.
 
 Now to send our phishing email, we need to add our phishing targets as members of our Okta organization.
 
-<div class="wp-block-image is-style-zoooom">
-  <figure class="aligncenter is-resized"><img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png?resize=353%2C352" alt="Add Person 
-First name 
-Last name 
-Username 
-Primary email 
-Secondary email (optlonal) 
-Groups (optlonal) 
-Password 
-John 
-John doe 
-John doeamytargetorgcom 
-You havent added any groups 
-Set by user 
-Send user actlvatlon emall now O 
-Save and Add Another 
-Cancel " class="wp-image-561" width="353" height="352" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png?w=642 642w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png?resize=150%2C150 150w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png?resize=300%2C300 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png?resize=50%2C50 50w" sizes="(max-width: 353px) 100vw, 353px" data-recalc-dims="1" /><figcaption>User addition page</figcaption></figure>
-</div>
+<img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-person-first-name-last-name-username-prima-1.png>
 
 This doesn&#8217;t send the email, we need to click on the newly created user and select &#8216;Activate&#8217;
 
