@@ -9,7 +9,6 @@ categories:
   - ELK
   - mimikatz
   - threat hunting
-
 ---
 I’ve been going through CyberWarDog’s Threat Hunting posts as of late and stumbled upon his ‘[Hunting for In-Memory Mimikatz][1]’ Series. The methods used to build signatures are very straight forward and seem to remove a barrier to entry for figuring out how to profile malicious tools.
 
@@ -69,11 +68,13 @@ As you can see, we have the typical alert rule options and we are querying for s
 
 <pre>python3 /bin/py-alert.py –T D –a Mimikatz –o /tmp/mimikatz –c $ComputerName</pre>
 
-<pre>-T is telling the script what action to take, in this case, we are just writing the hostname to a file so we want to use the ‘Document’ or D option.
+<pre>
+-T is telling the script what action to take, in this case, we are just writing the hostname to a file so we want to use the ‘Document’ or D option.
 
 -a is the alert type, in this case Mimikatz
 
-–c is the hostname taken from the alert.</pre>
+–c is the hostname taken from the alert.
+</pre>
 
 This is reflected across all DLL alerts. So when mimikatz is ran, the output file will have 5 hostnames written there.
 
