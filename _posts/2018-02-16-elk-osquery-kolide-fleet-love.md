@@ -44,24 +44,18 @@ You can use Kolides official documentation for most of this if you’d like. I b
 
 Install MySQL:
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=mysql_install" data-ts="8">
-</div>
-
 {% gist aafcd27fdc2f356194265a206e8c13db mysql_install %}
 
 Use the password: &#8216;kolide&#8217; (Or whatever you want, just adjust accordingly as you go)
 
 Install and run Redis:
-
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=redis_install" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db redis_install %}
 
 Or if you have time, use the [proper procedure to run Redis][7] although totally not necessary for the purpose of this guide!
 
 Fleet Server Setup:
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=fleet_install" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db fleet_install %}
 
 Now, if you go to [https://localhost:8080][8] in your local browser, you should be redirected to <https://localhost:8080/setup> where you can create your first Fleet user account.
 
@@ -93,8 +87,7 @@ Back on your new Kolide instance, select ‘Add New Hosts’ and copy the enroll
 
 Now, back on the host that you are installing OSQuery, replace <enroll secret> with your secret that was provided from Fleet and on line 11, replace localhost with the server IP running Kolide Fleet.
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=osquery_install" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db osquery_install %}
 
 If you go back to you Kolide app, you should see your new host appear!
 
@@ -106,13 +99,11 @@ We need to use FileBeat to move our osquery logs over to our Elastic Stack. If y
 
 On the server running Kolide run:
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=filebeat_install" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db filebeat_install %}
 
 In the filebeat config file paste the following:
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=filebeat_config" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db filebeat_config %}
 
 On line: 31, update localhost with your Logstash server IP.
 
