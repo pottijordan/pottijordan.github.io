@@ -106,7 +106,7 @@ Run Mimikatz:
 
 Profit:
 
-<img src="/images/2018/01/2.png>
+<img src="/images/2018/01/2.png">
           
 One thing to keep in mind is that these have been tested in a lab environment with a small population of end points. Deploying this in production will likely involve major tuning.
 
