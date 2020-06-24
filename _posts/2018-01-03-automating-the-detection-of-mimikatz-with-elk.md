@@ -5,8 +5,6 @@ type: post
 date: 2018-01-03T18:20:47+00:00
 url: /2018/01/03/automating-the-detection-of-mimikatz-with-elk/
 categories:
-  - Uncategorized
-tags:
   - elastic
   - ELK
   - mimikatz
@@ -23,8 +21,7 @@ I want to start out by saying this is definitely not the most elegant solution. 
 
 The Sysmon config I am using is the [Ion-Storm sysmon config][5]. By default, the proper events are forwarded. Lines 571-579.
 
-<div class="gist-oembed" data-gist="d103dc36af8212df7cb25e5dc3dfda9c.json?file=excerpt-sysmonconfig-export.xml" data-ts="8">
-</div>
+{% gist d103dc36af8212df7cb25e5dc3dfda9c excerpt-sysmonconfig-export.xml %}
 
 To get started, we need a script to handle some of the logic required to verify a couple things before we fire off an alert. I tried to make the python tool as modular as possible so that we can easily alert on other event ‘groupings’.
 
@@ -48,8 +45,7 @@ On your server running your ELK stack:
 
 Paste in:
 
-<div class="gist-oembed" data-gist="d103dc36af8212df7cb25e5dc3dfda9c.json?file=py-alert.py" data-ts="8">
-</div>
+{% gist d103dc36af8212df7cb25e5dc3dfda9c py-alert.py %}
 
 <pre>sudo chmod 755 /bin/py-alert.py</pre>
 
@@ -67,8 +63,7 @@ Copy our rules into our ElastAlert rules directory:
 
 We now have 6 new rules in our rule directory. Each rule with a DLL name alerts when that given DLL is loaded.
 
-<div class="gist-oembed" data-gist="d103dc36af8212df7cb25e5dc3dfda9c.json?file=samlib.yaml" data-ts="8">
-</div>
+{% gist d103dc36af8212df7cb25e5dc3dfda9c samlib.yaml %}
 
 As you can see, we have the typical alert rule options and we are querying for samlib in event_data.ImageLoaded. When this alert is tripped, it calls our python script with this command:
 
@@ -84,8 +79,7 @@ This is reflected across all DLL alerts. So when mimikatz is ran, the output fil
 
 Now let’s take a look at our Mimikatz rule.
 
-<div class="gist-oembed" data-gist="d103dc36af8212df7cb25e5dc3dfda9c.json?file=mimikatz.yaml" data-ts="8">
-</div>
+{% gist d103dc36af8212df7cb25e5dc3dfda9c mimikatz.yaml %}
 
 This alert uses frequency as well as a different index. ElastAlert actually has its own index that indexes everytime an alert is queried. So now we can check this index if all five of the DLL alerts were fired in less than one second. It does this by filtering for only the DLL rules, only returning those with the alert_sent flag set to true, and alerting only if identifies 5 results within 1 second.
 
@@ -107,10 +101,12 @@ This last part is important. This number should always be the amount of rules th
 
 Run Mimikatz:
 
-<img class="aligncenter  wp-image-383" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/01/1.png?resize=688%2C28" alt="" width="688" height="28" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/01/1.png?w=841 841w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/01/1.png?resize=300%2C12 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/01/1.png?resize=768%2C31 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/01/1.png?resize=825%2C34 825w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/01/1.png">
 
-Profit:<img class="aligncenter size-full wp-image-382" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/01/2.png?resize=543%2C105" alt="" width="543" height="105" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/01/2.png?w=543 543w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/01/2.png?resize=300%2C58 300w" sizes="(max-width: 543px) 100vw, 543px" data-recalc-dims="1" />
+Profit:
 
+<img src="/images/2018/01/2.png>
+          
 One thing to keep in mind is that these have been tested in a lab environment with a small population of end points. Deploying this in production will likely involve major tuning.
 
 Check out these labs: <https://cyberwardog.blogspot.com/2017/02/setting-up-pentesting-i-mean-threat_98.html> for an in-depth guide on how to set this stuff up manually as well as build the lab around it.
