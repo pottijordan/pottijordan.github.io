@@ -1,11 +1,11 @@
-YY---
+---
 title: Violating Your Personal Space with Webex
 author: jp
 type: post
 date: 2018-10-03T22:41:22+00:00
 url: /2018/10/03/violating-your-personal-space-with-webex/
 categories:
-  - Uncategorized
+  - recon
 
 ---
 Some time ago [Karl Fosaaen with NetSpi came out with some pretty interesting research around Federated Services and Skype for Business][1]. One of the attack vectors was being able to access other companies address books and sending them direct Skype for Business messages, including all the features that Skype for Business has, such as seeing when other users are online. There is something similarly fishy/phishy with Cisco’s Webex..
