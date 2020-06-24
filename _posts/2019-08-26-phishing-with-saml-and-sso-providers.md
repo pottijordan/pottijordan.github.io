@@ -9,7 +9,7 @@ categories:
   - red team
 
 ---
-<img src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png>
+<img src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2019/08/saml-sso.png">
 
 **Phishing is getting harder.** Email firewalls, user training and a host of endpoint controls are making phishing something that many Red Teams no longer perform. Instead, many Red Teams are using something called Assume Breach or White Carding, this allows the Red Team to skip certain portions of the initial access steps so that they can focus on other areas of the assessment. Spending two weeks on phishing could be valuable time lost inside the environment.
 
