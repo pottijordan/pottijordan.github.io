@@ -43,7 +43,9 @@ Combining SSO Providers with the ability to specify custom SAML Identity Provide
 
 To get an email to come from noreply@okta.co, we can use our Okta trial to customize the email templates for new users, this lets us determine what we want our targets to see. Below, is a new Okta user email, modified to fit our phishing needs.
 
-<img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2019/08/add-translauon-default-language-engllsh-ten-em-1.png>
+<p align="center">
+  <img src="/images/2019/08/add-translauon-default-language-engllsh-ten-em-1.png" />
+</p>
 
 Now that we have our custom email template, we have two options. Place our phishing link directly in the email which will be analyzed by most email gateways, or use our other option; SAML.
 
