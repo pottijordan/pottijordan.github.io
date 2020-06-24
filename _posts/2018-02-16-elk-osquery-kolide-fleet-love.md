@@ -47,7 +47,7 @@ Install MySQL:
 <div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=mysql_install" data-ts="8">
 </div>
 
-{% aafcd27fdc2f356194265a206e8c13db file-mysql_install %}
+{% gist aafcd27fdc2f356194265a206e8c13db file-mysql_install %}
 
 Use the password: &#8216;kolide&#8217; (Or whatever you want, just adjust accordingly as you go)
 
