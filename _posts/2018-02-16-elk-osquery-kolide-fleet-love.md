@@ -5,8 +5,6 @@ type: post
 date: 2018-02-16T03:00:17+00:00
 url: /2018/02/16/elk-osquery-kolide-fleet-love/
 categories:
-  - Uncategorized
-tags:
   - elastic
   - ELK
   - fleet
@@ -15,7 +13,7 @@ tags:
   - threat hunting
 
 ---
-<img class="aligncenter size-full wp-image-433" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/logo_cut.png?resize=688%2C158" alt="" width="688" height="158" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/logo_cut.png?w=916 916w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/logo_cut.png?resize=300%2C69 300w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/logo_cut.png?resize=768%2C176 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/logo_cut.png">
 
 Threat hunting on Linux and Mac has _probably_ never been easier. With the combination of these tools, we can query all of our hosts on demand for IOC&#8217;s, schedule queries to run on an automated basis and feed all of these results into our SIEM. Osquery is even platform agnostic so we can deploy it across all endpoints, regardless of host OS.
 
@@ -81,7 +79,7 @@ The shard is the percent of hosts that this Osquery pack will query. In a large 
 
 Repeat these steps for the following queries: etc\_hosts, iptables, listening\_ports, mounts, open\_files, and shell\_history..
 
-<img class="aligncenter size-full wp-image-415" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/query_pack.png?resize=688%2C323" alt="" width="688" height="323" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/query_pack.png?w=1347 1347w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/query_pack.png?resize=300%2C141 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/query_pack.png?resize=768%2C361 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/query_pack.png?resize=1024%2C481 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/query_pack.png">
 
 All of these queries can be run on demand as well.
 
@@ -98,7 +96,7 @@ Now, back on the host that you are installing OSQuery, replace <enroll secret> w
 
 If you go back to you Kolide app, you should see your new host appear!
 
-<img class="aligncenter size-full wp-image-414" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/hosts.png?resize=688%2C313" alt="" width="688" height="313" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/hosts.png?w=1347 1347w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/hosts.png?resize=300%2C136 300w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/hosts.png?resize=768%2C349 768w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2018/02/hosts.png?resize=1024%2C465 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/hosts.png">
 
 ### FileBeat Installation:
 
@@ -141,15 +139,15 @@ Choose Management -> Index Patterns -> Create Index Pattern
 
 In the Index Pattern box, enter osquery-result-* and choose Next Step. From the Time Filter field name drop down, choose @timestamp and then choose Create index pattern.
 
-<img class="aligncenter size-full wp-image-412" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_1.png?resize=688%2C207" alt="" width="688" height="207" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_1.png?w=1202 1202w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_1.png?resize=300%2C90 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_1.png?resize=768%2C231 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_1.png?resize=1024%2C308 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/index_pattern_1.png">
 
-<img class="aligncenter size-full wp-image-413" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_2.png?resize=688%2C199" alt="" width="688" height="199" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_2.png?w=1199 1199w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_2.png?resize=300%2C87 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_2.png?resize=768%2C222 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/index_pattern_2.png?resize=1024%2C296 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/index_pattern_2.png">
 
 Now go to Discover and choose osquery-result-* from the Index dropdown. You should see your queries filter in.
 
 Go To Management -> Import and import the two files found in this [gist][10]. One is the visualizations and one is the dashboard for osquery.
 
-<img class="aligncenter size-full wp-image-411" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?resize=688%2C354" alt="" width="688" height="354" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?w=1695 1695w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?resize=300%2C154 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?resize=768%2C395 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?resize=1024%2C527 1024w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2018/02/dashboard_osquery.png?w=1376 1376w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+<img src="/images/2018/02/dashboard_osquery.png">
 
 #### Recap:
 
