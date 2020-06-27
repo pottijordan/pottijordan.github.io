@@ -27,7 +27,7 @@ I personally love security tools that aren’t just blinky lights and can run na
   1. Go to the Account tab and select Logon Hours…
   2. Set Logon Denied to 24&#215;7
 
-<img src="/imagess/2017/11/q-restricted-security-application-security-analys.pn"g>
+<img src="/images/2017/11/q-restricted-security-application-security-analys.pn"g>
 
 ## Group Policy:
 
@@ -61,25 +61,33 @@ Configuring the task scheduler took a bit of time. This is due to the way the ev
 
 <img src="/images/2017/11/q-restricted-security-application-security-analys-4.png">
 
-  1. Move to the trigger tab and edit trigger.
+
+  2. Move to the trigger tab and edit trigger.
+
 
 <img src="/images/2017/11/q-restricted-security-application-security-analys-5.png">
 
-  1. Select New Event Filter and select the XML tab. Check Edit query manually. Modify the following query to fit your user and domain. Since we don’t know what username format the attacker will use, we need some OR statements in there to cover our bases. Typically, we could use the SID but in Event 4678, it is not logged. You can also add granularity and only log on certain events but in this case, I thought it best to alert on any account activity.
 
-<img src="/images/2017/11/q-restricted-security-application-security-analys-6.pn">
+  3. Select New Event Filter and select the XML tab. Check Edit query manually. Modify the following query to fit your user and domain. Since we don’t know what username format the attacker will use, we need some OR statements in there to cover our bases. Typically, we could use the SID but in Event 4678, it is not logged. You can also add granularity and only log on certain events but in this case, I thought it best to alert on any account activity.
 
-  1. You should be able to save that and move to the Action tab. You can do whatever sort of event here that you like. I chose a powershell script that alerts various people and provides details about the event.
+
+<img src="/images/2017/11/q-restricted-security-application-security-analys-6.png">
+
+
+  4. You should be able to save that and move to the Action tab. You can do whatever sort of event here that you like. I chose a powershell script that alerts various people and provides details about the event.
+
 
 <img src="/images/2017/11/q-restricted-security-application-security-analys-7.pn">
 
-  1. Select Start the task only if computer is on AC power.
+
+  4. Select Start the task only if computer is on AC power.
+
 
 <imgs rc="/images/2017/11/q-restricted-security-application-security-analys-8.png">
 
 ## Powershell Script:
 
-> <pre>function sendMail{
+<pre>function sendMail{
 
 Write-Host "Sending Email"
 
