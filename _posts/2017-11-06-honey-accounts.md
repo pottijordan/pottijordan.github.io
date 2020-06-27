@@ -27,7 +27,7 @@ I personally love security tools that aren’t just blinky lights and can run na
   1. Go to the Account tab and select Logon Hours…
   2. Set Logon Denied to 24&#215;7
 
-<img src="/images/2017/11/q-restricted-security-application-security-analys.pn"g>
+<img src="/images/2017/11/q-restricted-security-application-security-analys.png">
 
 ## Group Policy:
 
@@ -77,7 +77,7 @@ Configuring the task scheduler took a bit of time. This is due to the way the ev
   4. You should be able to save that and move to the Action tab. You can do whatever sort of event here that you like. I chose a powershell script that alerts various people and provides details about the event.
 
 
-<img src="/images/2017/11/q-restricted-security-application-security-analys-7.pn">
+<img src="/images/2017/11/q-restricted-security-application-security-analys-7.png">
 
 
   4. Select Start the task only if computer is on AC power.
