@@ -123,8 +123,7 @@ Add a new output filter:
 
 Replace ‘fleet-controller’ with the hostname of you Kolide server and paste this in to the conf file you just opened:
 
-<div class="gist-oembed" data-gist="aafcd27fdc2f356194265a206e8c13db.json?file=logstash_config" data-ts="8">
-</div>
+{% gist aafcd27fdc2f356194265a206e8c13db logstash_config %}
 
 #### Kibana:
 
