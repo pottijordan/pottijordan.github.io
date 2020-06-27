@@ -5,7 +5,7 @@ type: post
 date: 2018-09-06T14:58:14+00:00
 url: /2018/09/06/penetration-testing-is-red-teaming/
 categories:
-  - Uncategorized
+  - Red team
 
 ---
 ###### Red teaming is _not_ penetration testing but penetration testing <span style="font-style: italic;">is red teaming</span>.
