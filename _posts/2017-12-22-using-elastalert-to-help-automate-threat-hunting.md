@@ -5,8 +5,6 @@ type: post
 date: 2017-12-22T19:43:31+00:00
 url: /2017/12/22/using-elastalert-to-help-automate-threat-hunting/
 categories:
-  - Uncategorized
-tags:
   - elastic
   - ELK
   - threat hunting
@@ -213,7 +211,7 @@ _Remember: You host is localhost and your port is 9200, if you followed CyberWar
 
   * Profit
 
-<img class="wp-image-333" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/12/word-image.png?w=688" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/12/word-image.png?w=632 632w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/12/word-image.png?resize=300%2C62 300w" sizes="(max-width: 632px) 100vw, 632px" data-recalc-dims="1" />
+<img src="/images/2017/12/word-image.png">
 
 Commands you may want to monitor for:
 
