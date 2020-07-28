@@ -10,6 +10,7 @@ categories:
   - mimikatz
   - threat hunting
 ---
+
 I’ve been going through CyberWarDog’s Threat Hunting posts as of late and stumbled upon his ‘[Hunting for In-Memory Mimikatz][1]’ Series. The methods used to build signatures are very straight forward and seem to remove a barrier to entry for figuring out how to profile malicious tools.
 
 [The method used to detect Mimikatz is referred to as grouping which consists of taking a group of unique artifacts and identifying when multiple of the unique artifacts appear together.][2] So for this post, we will use Cyberwardog’s guidance to build an alert for the detection of Mimikatz using Sysmon and the ELK Stack.
