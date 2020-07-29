@@ -44,7 +44,7 @@ Cool, ready to go?
 
   * Install ElasticSearch-py
 <li style="list-style-type: none;">
-  <pre>pip install <span class="pl-s"><span class="pl-pds">"</span>elasticsearch&gt;=5.0.0<span class="pl-pds">"</span></span></pre>
+  <pre>pip install elasticsearc=5.0.0</pre>
 </li>
 
   * Install dependencies:
