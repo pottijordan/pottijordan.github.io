@@ -244,7 +244,7 @@ Invoke-ShellCommand
 
 _If you are going to take this Threat Hunting thing seriously, you will most likely want to add alerts for Spikes, Frequency, Cardinality and a billion other types of things that are good ideas to check for with any Production system._
 
-_For comments, questions, concerns you can reach me at [Twitter][1] or via [Email][2]_
+_For comments, questions, concerns you can reach me at Twitter or via Email_
 
 [UPDATE: Several issues fixed 12/26]
 
