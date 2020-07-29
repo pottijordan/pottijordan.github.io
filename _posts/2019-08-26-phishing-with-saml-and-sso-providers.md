@@ -1,6 +1,7 @@
 ---
 title: Phishing with SAML and SSO Providers
 author: jp
+excerpt: TEST
 type: post
 date: 2019-08-26T21:42:40+00:00
 url: /2019/08/26/phishing-with-saml-and-sso-providers/
