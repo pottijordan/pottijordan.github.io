@@ -12,6 +12,7 @@ categories:
 
 I first want to say thanks to CyberWarDog for his fantastic lab walk through for setting up a Threat Hunting Lab. It is hands down the best guide I have read to getting started with Threat Hunting. I followed his guide and got my lab completely setup. I then decided that Elastalert would be pretty nice for getting some of the highly likely IOC’s sent off to a security team for further analysis. This post will guide you through setting up Elastalert to get notifications when certain actions are logged.
 
+
 This guide assumes you have gone through all parts of CyberWarDogs tutorials: <https://cyberwardog.blogspot.com/2017/02/setting-up-pentesting-i-mean-threat.html>
 
 Not required, but it also assumes that you have set up Enhanced Powershell Logging so that we can begin to capture useful PowerShell data. <https://cyberwardog.blogspot.com/2017/06/enabling-enhanced-ps-logging-shipping.html>
