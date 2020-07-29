@@ -117,11 +117,11 @@ If you run into any issues, feel free to reach out to me on [Twitter][7] or by
 
 _The advice and scripts contained and referenced in this point are provided with no warranty. As always, never blindly trust scripts off the internet._
 
- [1]: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html
- [2]: https://sqrrl.com/threat-hunting-reference-guide/
- [3]: https://jordanpotti.com/2017/12/22/using-elastalert-to-help-automate-threat-hunting/
- [4]: https://github.com/Cyb3rWard0g/HELK
- [5]: https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml
- [6]: https://api.slack.com/incoming-webhooks
- [7]: https://twitter.com/ok_bye_now
- [8]: mailto:admin@jordanpotti.com
+ 1: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html
+ 2: https://sqrrl.com/threat-hunting-reference-guide/
+ 3: https://jordanpotti.com/2017/12/22/using-elastalert-to-help-automate-threat-hunting/
+ 4: https://github.com/Cyb3rWard0g/HELK
+ 5: https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml
+ 6: https://api.slack.com/incoming-webhooks
+ 7: https://twitter.com/ok_bye_now
+ 8: mailto:admin@jordanpotti.com
