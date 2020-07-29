@@ -25,7 +25,7 @@ I personally love security tools that aren’t just blinky lights and can run na
 <img src="/images/2017/11/word-image.png">
 
   1. Go to the Account tab and select Logon Hours…
-  2. Set Logon Denied to 24&#215;7
+  2. Set Logon Denied to 24/7
 
 <img src="/images/2017/11/q-restricted-security-application-security-analys.png">
 
