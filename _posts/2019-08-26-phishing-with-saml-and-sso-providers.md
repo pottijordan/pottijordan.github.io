@@ -34,10 +34,10 @@ Combining SSO Providers with the ability to specify custom SAML Identity Provide
 
 ## The phishing flow looks like this:
 
-  1. The user gets an email from noreply@okta.com with a message stating that they need to update their MFA token or something to that effect. This message is almost entirely attacker-controlled using Okta&#8217;s Email Template Customization.
+  1. The user gets an email from noreply@okta.com with a message stating that they need to update their MFA token or something to that effect. This message is almost entirely attacker-controlled using Okta's Email Template Customization.
   2. The link they are asked to follow goes to <attacker controlled subdomain>.okta.com (Our example uses my personal Okta account but this could be changed to fit your operation)
   3. Once they click the link, it redirects immediately to our phishing site.
-  4. In our case, we used EvilGinx which creates a transparent proxy of our target&#8217;s actual Okta login page which allows us to capture the login credentials as well as the session token.
+  4. In our case, we used EvilGinx which creates a transparent proxy of our target's actual Okta login page which allows us to capture the login credentials as well as the session token.
 
 ## So how does this work?
 
@@ -51,17 +51,17 @@ Now that we have our custom email template, we have two options. Place our phish
 
 What we need to do here is set up a custom SAML page to point to our phishing site. Evilsite.com will be replaced with our phishing site.
 
-<img src="/images/2019/08/edit-identity-provider-name-protocol-t-authen-1.png>
+<img src="/images/2019/08/edit-identity-provider-name-protocol-t-authen-1.png">
 
 Once we enter these details, we are given an Assertion URL, this URL will point to Okta but will redirect immediately to our phishing site we just specified.
 
-<img src="/images/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png>
+<img src="/images/2019/08/add-identlty-provlder-name-test-idp-id-saml-me-1.png">
 
 Now we need to copy the Assertion Consumer Service URL and go back to the email template we initially setup. Paste the Assertion link into the link for the Refresh MFA Token link.
 
 Now to send our phishing email, we need to add our phishing targets as members of our Okta organization.
 
-<img src="/images/2019/08/add-person-first-name-last-name-username-prima-1.png>
+<img src="/images/2019/08/add-person-first-name-last-name-username-prima-1.png">
 
 This doesn&#8217;t send the email, we need to click on the newly created user and select &#8216;Activate&#8217;
 
@@ -130,4 +130,4 @@ Since many services are moving into the Enterprise space and adding support for 
 
 ### SAML Open Redirects:
 
-While testing this, I found that Google, GitLab, Duo, and Okta all allow you to use SAML for open redirects. It&#8217;s likely that nearly all services that allow you to integrate SAML with a custom Identity Provider will be similar.
+While testing this, I found that Google, GitLab, Duo, and Okta all allow you to use SAML for open redirects. It's likely that nearly all services that allow you to integrate SAML with a custom Identity Provider will be similar.
