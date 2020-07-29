@@ -118,8 +118,6 @@ If you run into any issues, feel free to reach out to me on [Twitter][7] or by
 
 _The advice and scripts contained and referenced in this point are provided with no warranty. As always, never blindly trust scripts off the internet._
 
-&nbsp;
-
  [1]: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html
  [2]: https://sqrrl.com/threat-hunting-reference-guide/
  [3]: https://jordanpotti.com/2017/12/22/using-elastalert-to-help-automate-threat-hunting/
