@@ -237,5 +237,5 @@ _For comments, questions, concerns you can reach me at [Twitter][1] or via [Ema
 
 [UPDATE: Several issues fixed 12/26]
 
- [1]: https://twitter.com/ok_bye_now
- [2]: mailto:admin@jordanpotti.com
+ 1: https://twitter.com/ok_bye_now
+ 2: mailto:admin@jordanpotti.com
