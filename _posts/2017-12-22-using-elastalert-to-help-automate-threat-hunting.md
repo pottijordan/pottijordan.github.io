@@ -65,7 +65,8 @@ Cool, ready to go?
 
 Paste:
 
-<pre>es_host: localhost
+<pre>
+es_host: localhost
 es_port: 9200
 name: "PLACEHOLDER"
 index: winlogbeat-*
@@ -75,7 +76,8 @@ filter:
 type: any
 alert:
 - slack
-slack_webhook_url: "SLACK_WEB_HOOK"</pre>
+slack_webhook_url: "SLACK_WEB_HOOK"
+</pre>
 
 **es_host**: This is the host your ELK stack is running on.
 
@@ -95,7 +97,8 @@ slack_webhook_url: "SLACK_WEB_HOOK"</pre>
 
 Paste:
 
-<pre>es_host: localhost
+<pre>
+es_host: localhost
 es_port: 9200
 name: "PLACEHOLDER"
 index: winlogbeat-*
@@ -105,7 +108,8 @@ filter:
 type: any
 alert:
 - slack
-slack_webhook_url: "SLACK_WEB_HOOK"</pre>
+slack_webhook_url: "SLACK_WEB_HOOK"
+</pre>
 
   * Create your main config.yaml file.
 
@@ -173,7 +177,8 @@ slack_webhook_url: "SLACK_WEB_HOOK"</pre>
   * Replace the first Placeholder with ‘Invoke-WebRequest’ and the second Placeholder with “invoke”, “webrequest”.
   * Replace SLACK\_WEB\_HOOK with your Slack Web Hook. <https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack>
 
-<pre>es_host: localhost
+<pre>
+es_host: localhost
 es_port: 9200
 name: "invoke-webrequest"
 index: winlogbeat-*
@@ -183,7 +188,8 @@ filter:
 type: any
 alert:
 - slack
-slack_webhook_url: "SLACK_WEB_HOOK"</pre>
+slack_webhook_url: "SLACK_WEB_HOOK"
+</pre>
 
 _Only query lowercase terms._
 
@@ -216,21 +222,25 @@ _Remember: You host is localhost and your port is 9200, if you followed CyberWar
 
 Commands you may want to monitor for:
 
-<pre>Whoami
+<pre>
+Whoami
 
 Netstat
 
-Wmic</pre>
+Wmic
+</pre>
 
 Powershell Functions you may want to monitor on:
 
-<pre>Invoke-WebRequest
+<pre>
+Invoke-WebRequest
 
 Invoke-Obfuscation
 
 Downloadstring
 
-Invoke-ShellCommand</pre>
+Invoke-ShellCommand
+</pre>
 
 _If you are going to take this Threat Hunting thing seriously, you will most likely want to add alerts for Spikes, Frequency, Cardinality and a billion other types of things that are good ideas to check for with any Production system._
 
