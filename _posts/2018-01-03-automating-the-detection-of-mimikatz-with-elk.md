@@ -131,4 +131,4 @@ _The advice and scripts contained and referenced in this point are provided with
  
  7: <https://twitter.com/ok_bye_now>
  
- 8: mailto:admin@jordanpotti.com
+ 8: <mailto:admin@jordanpotti.com>
