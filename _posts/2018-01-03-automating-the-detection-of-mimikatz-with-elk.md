@@ -1,7 +1,7 @@
 ---
 title: Automating the detection of Mimikatz with ELK
 author: jp
-type: post
+layout: post
 date: 2018-01-03T18:20:47+00:00
 url: /2018/01/03/automating-the-detection-of-mimikatz-with-elk/
 categories:
