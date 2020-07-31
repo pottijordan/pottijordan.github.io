@@ -220,7 +220,7 @@ categories:
   This command will display the name and parent process ID of a given process ID. This would be the next step after determining which process is performing strange network activity. The parent process will be the process that spawned the suspicious process.
 </p>
 
-> wmic process get name,processid,parentprocessid|find “<Insert PID here without the brackets>”
+> wmic process get name,processid,parentprocessid\|find “<Insert PID here without the brackets>”
 
 <p style="text-align: left;">
   You can then follow up with running the same command with the parent process ID to determine the name of the parent process.
@@ -236,13 +236,13 @@ categories:
   To determine startup tasks.
 </p>
 
-> wmic startup get caption,command
+`wmic startup get caption,command`
 
 <p style="text-align: left;">
   To kill a process:
 </p>
 
-> wmic process where name=”nc.exe” delete
+`wmic process where name=”nc.exe” delete`
 
 <h5 style="text-align: left;">
   Some other useful commands to know:
@@ -252,19 +252,19 @@ categories:
   To verify firewall state
 </p>
 
-> netsh firewall show state
+`netsh firewall show state`
 
 <p style="text-align: left;">
   To view scheduled tasks
 </p>
 
-> schtasks /query /fo LIST /v
+`schtasks /query /fo LIST /v`
 
 <p style="text-align: left;">
   View running Windows services
 </p>
 
-> net start
+`net start`
 
 <h5 style="text-align: left;">
   SANS 504 Incident Response Quiz
@@ -279,7 +279,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img src="/images/https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png">
+  <img src="/images/https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -287,7 +287,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img src="/images/2017/01/3.png"
+  <img src="/images/2017/01/3.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -295,7 +295,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img src="/images/2017/01/4.png"
+  <img src="/images/2017/01/4.png"/>
 </p>
 
 <p style="text-align: left;">
