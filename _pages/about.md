@@ -8,9 +8,11 @@ permalink: /about/
 
 **GitHub** <https://github.com/jordanpotti>
 
+**Twitter** <https://twitter.com/ok_bye_now>
+
 Creations:
 - [Red Team Maturity Model](https://redteams.fyi)
 - [AWSBucketDump](https://github.com/jordanpotti/awsbucketdump)
-- [CLoudScraper](https://github.com/jordanpotti/cloudscraper)
-- Bunch of other random tools..
+- [CloudScraper](https://github.com/jordanpotti/cloudscraper)
+- Bunch of other random things
 
