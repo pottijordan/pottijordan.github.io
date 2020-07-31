@@ -93,7 +93,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="size-medium wp-image-197 aligncenter" src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2017-01-19-22_05_43-Book1-Excel-300x179.png?resize=300%2C179" alt="" width="300" height="179" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2017-01-19-22_05_43-Book1-Excel.png?resize=300%2C179 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2017-01-19-22_05_43-Book1-Excel.png?w=588 588w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
+  <img src="/images//2017/01/2017-01-19-22_05_43-Book1-Excel-300x179.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -123,7 +123,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-211" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/1.png?resize=688%2C397" alt="" width="688" height="397" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/1.png?w=1146 1146w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/1.png?resize=300%2C173 300w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/1.png?resize=768%2C443 768w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/1.png?resize=1024%2C591 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/1.png"/>
 </p>
 
 <h5 style="text-align: left;">
@@ -279,7 +279,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-212" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png?resize=688%2C84" alt="" width="688" height="84" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png?w=937 937w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png?resize=300%2C37 300w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png?resize=768%2C94 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png">
 </p>
 
 <p style="text-align: left;">
@@ -287,7 +287,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-198" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/3.png?resize=688%2C479" alt="" width="688" height="479" srcset="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/3.png?w=932 932w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/3.png?resize=300%2C209 300w, https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/3.png?resize=768%2C535 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/3.png"
 </p>
 
 <p style="text-align: left;">
@@ -295,7 +295,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-199" src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/4.png?resize=688%2C126" alt="" width="688" height="126" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/4.png?w=941 941w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/4.png?resize=300%2C55 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/4.png?resize=768%2C140 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/4.png"
 </p>
 
 <p style="text-align: left;">
@@ -303,7 +303,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-201" src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/6.png?resize=688%2C146" alt="" width="688" height="146" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/6.png?w=938 938w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/6.png?resize=300%2C64 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/6.png?resize=768%2C163 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/6.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -315,7 +315,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-202" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/7.png?resize=688%2C152" alt="" width="688" height="152" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/7.png?w=940 940w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/7.png?resize=300%2C66 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/7.png?resize=768%2C170 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/7.png" />
 </p>
 
 <p style="text-align: left;">
@@ -323,7 +323,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-203" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/8.png?resize=688%2C83" alt="" width="688" height="83" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/8.png?w=1088 1088w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/8.png?resize=300%2C36 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/8.png?resize=768%2C93 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/8.png?resize=1024%2C124 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/8.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -331,7 +331,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-206" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/12.png?resize=688%2C41" alt="" width="688" height="41" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/12.png?w=924 924w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/12.png?resize=300%2C18 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/12.png?resize=768%2C46 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+ <img src="/images/2017/01/12.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -339,7 +339,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-208" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/14.png?resize=688%2C170" alt="" width="688" height="170" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/14.png?w=937 937w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/14.png?resize=300%2C74 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/14.png?resize=768%2C189 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+  <img src="/images/2017/01/14.png" />
 </p>
 
 <p style="text-align: left;">
@@ -347,7 +347,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-209" src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/15.png?resize=688%2C309" alt="" width="688" height="309" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/15.png?w=1131 1131w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/15.png?resize=300%2C135 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/15.png?resize=768%2C345 768w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/01/15.png?resize=1024%2C460 1024w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+ <img src="/images/2017/01/15.png"/>
 </p>
 
 <p style="text-align: left;">
@@ -355,7 +355,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img class="aligncenter size-full wp-image-210" src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/16.png?resize=688%2C351" alt="" width="688" height="351" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/16.png?w=940 940w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/16.png?resize=300%2C153 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/01/16.png?resize=768%2C391 768w" sizes="(max-width: 688px) 100vw, 688px" data-recalc-dims="1" />
+ <img src="/images/2017/01/16.png"/>
 </p>
 
 <p style="text-align: left;">
