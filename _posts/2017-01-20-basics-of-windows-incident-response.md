@@ -5,7 +5,7 @@ type: post
 date: 2017-01-20T15:25:44+00:00
 url: /2017/01/20/basics-of-windows-incident-response/
 categories:
-  - Uncategorized
+  - IR
 
 ---
 <p style="text-align: left;">
@@ -100,7 +100,7 @@ categories:
   This command will query the Security logs for event ID 4720 (User Account Creation)
 </p>
 
-> wevtutil qe security /q:&#8221;*[System[(EventID=4720)]]&#8221; /c:5 /f:text /rd:true
+`wevtutil qe security /q:&#8221;*[System[(EventID=4720)]]&#8221; /c:5 /f:text /rd:true`
 
 <p style="text-align: left;">
   <strong>qe:</strong> What logs to query, here you would place system for system logs etc.
@@ -138,7 +138,7 @@ categories:
   This command will display all active TCP connections as well as listening TCP and UDP ports. You would want to run this to determine if this host is connecting to any strange locations, or if your host has something listening that shouldn’t be.
 </p>
 
-> netstat -anob
+`netstat -anob`
 
 <p style="text-align: left;">
   <strong>-a:</strong> Displays all active TCP connections and the TCP and UDP ports on which the computer is listening.
@@ -168,7 +168,7 @@ categories:
   This command will display the associated task as well as the associated DLL’s.
 </p>
 
-> tasklist /m /fi “pid eq <Insert Process ID here w/out the brackets>”
+`tasklist /m /fi “pid eq <Insert Process ID here w/out the brackets>”`
 
 <p style="text-align: left;">
   <strong>/m:</strong> Displays the associating modules.
@@ -190,19 +190,17 @@ categories:
   These commands display open sessions with your host.
 </p>
 
-> net session
-> 
-> net use
+`net session`
+
+`net use`
 
 <p style="text-align: left;">
   Some other commands include:
 </p>
 
-> net user
-> 
-> net view
-> 
-> net user USERNAME
+`net user`
+`net view`
+`net user USERNAME`
 
 <h5 style="text-align: left;">
   WMIC
@@ -220,7 +218,7 @@ categories:
   This command will display the name and parent process ID of a given process ID. This would be the next step after determining which process is performing strange network activity. The parent process will be the process that spawned the suspicious process.
 </p>
 
-> wmic process get name,processid,parentprocessid\|find “<Insert PID here without the brackets>”
+`wmic process get name,processid,parentprocessid\|find “<Insert PID here without the brackets>”`
 
 <p style="text-align: left;">
   You can then follow up with running the same command with the parent process ID to determine the name of the parent process.
@@ -230,7 +228,7 @@ categories:
   You can also determine the command used to run the process.
 </p>
 
-> wmic process where processid=”PID without the quotes” get commandline
+`wmic process where processid=”PID without the quotes” get commandline`
 
 <p style="text-align: left;">
   To determine startup tasks.
