@@ -277,7 +277,7 @@ categories:
 </p>
 
 <p style="text-align: left;">
-  <img src="/images/https://i1.wp.com/jordanpotti.com/wp-content/uploads/2017/01/2.png"/>
+  <img src="/images/2017/01/2.png"/>
 </p>
 
 <p style="text-align: left;">
