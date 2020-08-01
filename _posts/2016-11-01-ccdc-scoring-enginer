@@ -1,0 +1,20 @@
+---
+title: Scoring Engine
+author: jp
+type: post
+date: 2016-11-02T20:59:29+00:00
+category: ccdc
+
+---
+The scoring engine, as far as we can tell from pcaps, simply does simple tasks to verify a service is working. We have noticed that it jumps around to different IP&#8217;s to mimic real users. Here are some screenshots of a pcap for the scoring engines traffic. Hopefully you can use this to get a better idea of how a service is being scored. Contact me if you would like the entire pcap.
+
+On our team, I have each team member go through and identify attackers and the scoring engine from the pcaps taken from previous years.
+
+Some of the services it scores: FTP, SSH, HTTP, HTTPS, DNS, SMTP, POP
+
+<img src="/images/2016/11/Screenshot_20161102_154346.png" />
+<img src="/images/2016/11/Screenshot_20161102_154425.png" />
+<img src="/images/2016/11/Screenshot_20161102_154458.png" />
+<img src="/images/2016/11/Screenshot_20161102_154532.png" />
+<img src="/images/2016/11/Screenshot_20161102_154603.png" />
+<img src="/images/2016/11/Screenshot_20161102_154621.png" />
