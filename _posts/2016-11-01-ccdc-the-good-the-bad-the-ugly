@@ -1,0 +1,80 @@
+---
+title: CCDC
+author: jp
+type: post
+date: 2016-11-01T14:38:23+00:00
+category: ccdc
+---
+##### **Collegiate Cyber Defense Competition[†][1]**
+
+While I was a student at Lake Superior College getting my Associates in Network Administration, I joined the CCDC team. We won first place in the state competition and went on to the regional competition.
+
+When I continued my education at St Cloud State University, I took the role of Captain. A classmate and I organized structured practices and a loose curriculum. We won state and advanced to take 3rd place at the regional competition. I was also the firewall admin both times in these competitions, the second time around, I decided to automate as much of my task as possible, which saved tons of time and allowed me to assist others on my team.
+
+_These ccdc events seem to get some [flak][2] although I have had a pretty good experience albeit the fact that nothing is perfect. Just keep in mind that ccdc is definitely not a ctf. It is more of a sysadmin or IR role play and for me, it was all of those and firewall admin. My team and I learned quite a bit about looking for malware, interpreting firewall logs, packet captures and a whole bunch of other useful things as well as understanding the vast benefits of automation. _
+
+##### Collegiate Cyber Defense Competition &#8211; Blue Team Perspective
+
+CCDC is an amazing learning experience and overall enjoyable competition. However, it does has some flaws that I would love to see get fixed. Some of these flaws might be specific to the Midwest region. Also, I have seen arguments against some of the flaws I have witnessed but oh well, it is just my humble opinion.
+
+For CCDC folks looking for tips or scripts that I have used in the past, check out my Github or the [Tools and Tips][3] page.
+
+##### The Good
+
+The best thing about CCDC is that it encourages and practices great communication skills, task management and technical skill. Successful teams always seem to have a hierarchy and very distinct roles for each member. This hierarchy and delegated roles are extremely important when things start to go south.
+
+As far as technical skills, CCDC tests the students ability to adapt to new environments and forces the students to learn how basic DFIR and Incident Response works. These are fundamentals for a student in Information Security. What it teaches even more so, is System Administration. Many students I have seen focus strictly on the &#8220;hardening&#8221; of boxes. They spend many months prior to the competition honing their iptables scripts, FIMs and Web App firewalls. However, it is easy to get tunnel vision here. The best competitors come from a sysadmin background. They understand how an Email server works, how to add new users, and how to troubleshoot SMTP. And quite honestly, being able to do that is so much more difficult than configuring your local firewall and installing some sort of IDS or FIM especially on 10 year old systems.
+
+Overall, when a student is on a successful team, it speaks volumes. It typically indicates a great foundation of security principles, good communication skills and the technical ability to figure out how something works on the fly.
+
+##### The Not So Good
+
+_Disclaimer: This is not written with the purpose of bashing CCDC. It is written to help new teams get a better understanding of what CCDC is all about as well as addressing some of the things that would be awesome if they fixed. _
+
+So in this section I just want to address a couple things I have noticed that could be improved. The name Cyber Defense Competition seems to indicate a competition where you need to defend against hackers. While this is a very large part of CCDC, there is so much more involved. For starters, in order to defend a network, you have to maintain a network. I would argue that maintaining the 10 year old CCDC network is just as difficult or more difficult than the &#8220;defense&#8221; aspect. I don&#8217;t exactly see this as a bad thing, but it is something that I think we need to start thinking about when we hear about CCDC.
+
+**Unrealistic: **There are a couple aspects of the competition that are not quite realistic but could be easily fixed.
+
+<p style="padding-left: 30px;">
+  <strong>1.</strong> The entire competition uses private IP addresses. This makes it easy to block outbound connections to private IP addresses which seriously prohibits the red teams ability to get connections back to themselves.
+</p>
+
+<p style="padding-left: 30px;">
+  <strong>2.</strong> Not enough &#8220;noise&#8221;, it is very easy to determine between the red team and the scoring engine when looking at access logs and firewall traffic logs.
+</p>
+
+<p style="padding-left: 30px;">
+  <strong>3.</strong> The scored DNS only resolves internal addresses which makes it easy to block toole like DNScat by blocking all outbound DNS queries. Since the environment is virtual, it is easy to resolve from your host and then find the IP from there, or throw stuff on transfer.sh or pastebin and get to that by IP from inside the environment.
+</p>
+
+**Repetitiveness:** This is easily the largest frustration I have with CCDC. I cannot speak for the other regions but the Midwest region has been largely the same for the last 3 years. For someone who competes every year they are in college, it can get rather old. It also doesn&#8217;t seem to test a students ability to adapt when they have seen the same exact systems for the past couple years. We also get access to the competition environment for a couple days prior to the competition. This has always felt strange since we can test all of our scripts, find the misconfigured services and find the backdoors prior to the competition.
+
+**Feedback:** I have heard from many different sources that feedback is lacking in most of the regions. Since the students are held to a &#8220;business&#8221; standard, I strongly think that the red team should complete a report for each team highlighting weak points, vulnerabilities exploited and overall recommendations. I understand that these guys are volunteering but if I was red teaming year after year at a CCDC event and I consistently used the same holes, I would get bored fairly fast. An example from last year for poor feedback: Someone asked how the red team got a shell on the firewall(There were a couple RCE&#8217;s on the web interface as well as some other critical vulns for that PANos version), the red team member responded that they did not want to give away their secrets.. What?
+
+**Scoring:** There is no score breakdown. Other than announcing 1st, 2nd and 3rd place, no other scoring details are given. What sort of collegiate level competition provides absolutely no scoring? I get that they might not want to run into scoring disputes but at this level there should be some sort of transparency.
+
+##### Conclusion
+
+CCDC is an amazing event and like everything, it is not perfect. As a student who is graduating soon and hopefully getting into red teaming, I look forward to partaking in these events and providing the feedback necessary to these students. If there are any White teams that need help building environments, I am so willing to volunteer. I think having a changing environment would be extremely valuable as well as a way to keep it from getting too stacked for the teams that have competed or made it to a certain level year after year.
+
+&nbsp;
+
+##### Some Useful Talks:
+
+<https://docs.google.com/presentation/d/1rIrzUlwpGVfVETPoC2a1qgYU2pGOgqPFCdt1D-StrLU/edit?hl=en>
+
+<blockquote class="wp-embedded-content" data-secret="Ouhg9nfz8N">
+  <p>
+    <a href="https://www.blackhillsinfosec.com/red-blue-purple/">Red + Blue = Purple</a>
+  </p>
+</blockquote>
+
+<iframe title="&#8220;Red + Blue = Purple&#8221; &#8212; Black Hills Information Security" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://www.blackhillsinfosec.com/red-blue-purple/embed/#?secret=Ouhg9nfz8N" data-secret="Ouhg9nfz8N" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+&nbsp;
+
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' width='688' height='387' src='https://www.youtube.com/embed/HS41i5t8BVc?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+
+ [1]: http://www.nationalccdc.org/
+ [2]: https://trailofbits.github.io/ctf/ctf.html
+ [3]: https://jordanpotti.com/ccdc/tools-tips/
