@@ -28,6 +28,8 @@ And they fixed it.
 
 And they didn’t let me keep jp@hey.com for $99.  
 
-But at least they had a fix in production in an hour or so! 
-
 <img src="/images/2020/07/999.png">
+
+But at least they had a fix in production in an hour or so!
+
+
