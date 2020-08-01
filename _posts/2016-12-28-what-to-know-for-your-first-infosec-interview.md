@@ -5,7 +5,7 @@ type: post
 date: 2016-12-28T18:58:20+00:00
 url: /2016/12/28/what-to-know-for-your-first-infosec-interview/
 categories:
-  - Uncategorized
+  - interviews
 
 ---
 There are a whole bunch of sites out there that have common interview questions for careers in information security. I took those and compiled a list of concepts that those questions are based off of. While most of this stuff you should already know if you have an interview, it&#8217;s nice to have a refresher sheet. This most likely won&#8217;t be anything earth shattering but it will be a collection of concepts that a budding information security professional should understand. This is also a dynamic post so things will likely be added over the next couple months.
@@ -115,13 +115,13 @@ Examples:
 
 OSI stands for Open Systems Interconnection model.  This is a theoretical model that helps us design and understand how data communication works.
 
-<img class="alignnone wp-image-175" src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?resize=627%2C184" alt="" width="627" height="184" srcset="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?resize=300%2C88 300w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?resize=768%2C226 768w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?resize=1024%2C302 1024w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?resize=1200%2C353 1200w, https://i0.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png?w=1202 1202w" sizes="(max-width: 627px) 100vw, 627px" data-recalc-dims="1" />
+<img src="/images//2016/12/2016-12-28-11_20_20-OSI-model-Wikipedia.png" />
 
 Image Credit: <https://en.wikipedia.org/wiki/OSI_model>
 
 Examples of each layers:
 
-<img class="alignnone wp-image-176" src="https://i1.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-12_26_40-Book1-Excel-300x117.png?resize=608%2C237" alt="" width="608" height="237" srcset="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-12_26_40-Book1-Excel.png?resize=300%2C117 300w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-12_26_40-Book1-Excel.png?resize=768%2C299 768w, https://i2.wp.com/jordanpotti.com/wp-content/uploads/2016/12/2016-12-28-12_26_40-Book1-Excel.png?w=903 903w" sizes="(max-width: 608px) 100vw, 608px" data-recalc-dims="1" />
+<img src="/images/2016/12/2016-12-28-12_26_40-Book1-Excel-300x117.png"/>
 
 Some key differences between a router, a switch and a hub are what they connect. A router connects networks and a switch connects hosts. A hub just connects hosts and instead of using logic to divert packets, it just sends to everyone. A router uses IP addresses for transmitting data, a switch uses MAC addresses and a hub doesn&#8217;t care since it is broadcasting all received data.
 
