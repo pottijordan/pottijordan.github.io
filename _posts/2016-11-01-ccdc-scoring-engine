@@ -1,10 +1,11 @@
 ---
-title: Scoring Engine
+title: CCDC Scoring Engine
 author: jp
 type: post
-date: 2016-11-02T20:59:29+00:00
-category: ccdc
-
+date: 2016-11-01T14:38:23+00:00
+url: /2016/11/01/ccdc-scoring-engine/
+categories:
+  - ccdc
 ---
 The scoring engine, as far as we can tell from pcaps, simply does simple tasks to verify a service is working. We have noticed that it jumps around to different IP&#8217;s to mimic real users. Here are some screenshots of a pcap for the scoring engines traffic. Hopefully you can use this to get a better idea of how a service is being scored. Contact me if you would like the entire pcap.
 
