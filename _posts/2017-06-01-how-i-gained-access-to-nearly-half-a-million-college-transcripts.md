@@ -31,12 +31,12 @@ Some of the information gleaned from someone&#8217;s transcript includes:
 
 This information is protected by FERPA, in fact, at the bottom of each report, there was a FERPA statement.
 
-<img src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/06/3.png?resize=541%2C52" alt="" width="541" height="52" data-recalc-dims="1" />
+<img src="/images/2017/06/3.png" />
 
 Overall, there aren&#8217;t many technical details to include. It really consisted of some curiosity, Burp Intruder, and a list of 1000 sequential numbers.
 
-<img src="https://i2.wp.com/jordanpotti.com/wp-content/uploads/2017/06/1.png?resize=688%2C176" alt="" width="688" height="176" data-recalc-dims="1" />
+<img src="/images/2017/06/1.png" />
 
 Here are the Intruder results showing quite a few results:
 
-<img src="https://i0.wp.com/jordanpotti.com/wp-content/uploads/2017/06/2.png?resize=688%2C550" alt="" width="688" height="550" data-recalc-dims="1" />
+<img src="/images/2017/06/2.png" />
