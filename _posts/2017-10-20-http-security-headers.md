@@ -16,15 +16,15 @@ HTTP security headers seem to be findings on nearly every assessment I have been
 
 Content-Security-Policy &#8211; CSP is a HTTP security header that allows the web application to specify the source for any file that must be loaded from a separate domain. Its main use is to prevent cross-site scripting (XSS) and other injection techniques that load malicious data from an external source. An example of a CSP that restricts the source for all scripts, images and fonts would look like this:
 
-> <pre>Content-Security-Policy: default-src 'self'</pre>
+`Content-Security-Policy: default-src 'self'`
 
 If you were to add sources for other script, you could simply append the trusted domain. It even accepts wildcards for specifying subdomains.
 
-> <pre>Content-Security-Policy: default-src 'self' *.jordanpotti.com</pre>
+`Content-Security-Policy: default-src 'self' *.jordanpotti.com`
 
 You can get more granular and specify image-src, media-src, child-src and a host of other restrictions. You can also use report-uri in order to POST reports of policy failures to a URI of your choice. Here is an example of that:
 
-> <pre>Content-Security-Policy: default-src 'self' *.google.com ; report-uri <a href="https://errorcollector.jordanpotti.com/collection.php">https://errorcollector.jordanpotti.com/collection.php</a></pre>
+`Content-Security-Policy: default-src 'self' *.google.com ; report-uri https://errorcollector.jordanpotti.com/collection.php"`
 
 Reporting these violations could give your developers diagnostic information as well as possibly alert you to a vulnerability or attempt to exploit a vulnerability.
 
