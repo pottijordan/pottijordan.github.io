@@ -16,6 +16,6 @@ A high level TTP to detection rule life cycle. This is surely not all inclusive 
 
 <img src="/images/2020/08/red-blue-lc.png">
 
-# Example Detection "Kit"
+# Example Detection "Package"
 
 <img src="/images/2020/08/detection-kit.png">
