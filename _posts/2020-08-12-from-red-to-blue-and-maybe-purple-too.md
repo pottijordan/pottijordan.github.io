@@ -10,7 +10,7 @@ categories:
 
 ---
 
-### A high level TTP to detection rule life cycle. 
+## A high level TTP to detection rule life cycle. 
 
 This is surely not all inclusive but does breakdown an often overlooked component of red team observations. That is, what happens once you hand off the report. 
 
