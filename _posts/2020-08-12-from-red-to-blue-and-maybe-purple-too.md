@@ -14,8 +14,6 @@ categories:
 
 This is surely not all inclusive but does breakdown an often overlooked component of red team observations. That is, what happens once you hand off the report. 
 
-The first two steps could either be done by a red team (left), or a purple team (right).
-
 <img src="/images/2020/08/red-blue-lc.png">
 
 ## Example Detection "Package"
