@@ -9,7 +9,7 @@ categories:
 
 ---
 
-## If you are only as strong as your weakest link, don't let that weak link be your detection and response capabilities..
+### If you are only as strong as your weakest link, don't let that weak link be your detection and response capabilities..
 
 There will always be multiple gaps in each layer of your defense in depth model. Make sure finding those gaps takes longer than your detection and response times.
 
