@@ -19,7 +19,7 @@ This works like this:
 ![](https://paper-attachments.dropbox.com/s_6A8AD8E9B8CF9D48F3B9EDEC041237C695C2CBEE8AEE9F15FB740839B77F8950_1601310296880_image.png)
 
 
-Before we begin, I will assume you have the follow prerequisites. 
+Before we begin, I will assume you have the following prerequisites. 
 
     1. A VPC configured
     2. 2 Subnets in different Zones
@@ -48,6 +48,8 @@ Before moving on, choose **Add an App Client**. Once again, I will name this the
 Now choose **Create app client → Return to pool details → Create Pool**.
 
 Congrats! You have just completed your first steps to doing this thing!
+
+
 
 Now, go to the left hand side and select **App client settings**.
 
@@ -94,7 +96,7 @@ Select **Next: Configure Security Settings**.
 
 If you already have a cert, you will need to upload it here, or choose it from Amazon’s Certificate Manager. Since I don’t yet, lets go through the motions.
 
-Select Request a new certificate from ACM.
+Select **Request a new certificate from ACM**.
 
 ![](https://paper-attachments.dropbox.com/s_6A8AD8E9B8CF9D48F3B9EDEC041237C695C2CBEE8AEE9F15FB740839B77F8950_1600984284009_image.png)
 
@@ -163,7 +165,7 @@ From this page, click the edit option near the top, then click the edit option o
 ![](https://paper-attachments.dropbox.com/s_6A8AD8E9B8CF9D48F3B9EDEC041237C695C2CBEE8AEE9F15FB740839B77F8950_1601047373887_image.png)
 
 
-Press update and go back to the load balancer page.
+Press **Update** and go back to the load balancer page.
 
 Following the same steps as before, edit the **HTTPS listener**.
 
