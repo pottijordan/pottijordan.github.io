@@ -8,7 +8,6 @@ categories:
   - aws
 ---
 
-# Serverless Authentication FTW
 Many applications you find on GitHub that can be used for one off tasks, or for simple automation don’t have built in authentication. Typically, I just run it on localhost and port forward, or just run the application locally. This can be a pain and doesn’t scale very well.
 
 With AWS Application Load Balancing, and AWS Cognito, we can control access to applications using Cognito’s built in user directory services, and AWS’s Application Load Balancing conditional forwarding. 
