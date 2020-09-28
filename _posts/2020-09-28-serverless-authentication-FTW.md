@@ -1,4 +1,3 @@
-
 ---
 title: Serverless Authentication FTW
 author: jp
