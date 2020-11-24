@@ -49,12 +49,6 @@ Leveraging the Mitre Attack framework allows the Red Team to begin to see the st
 
 For an example of a spreadsheet that tracks much of this data, check out Cedric Owens GitHub project: https://github.com/cedowens/Rolling_Op_Metrics
 
-Why didn’t I just opt to use Vectr?
-
-- Not open source
-- Focused on Purple Team ops
-- Doesn’t gather what I want exactly
-- Its a full featured product made for purple team engagements, not red team engagements.
 
 References:
 
