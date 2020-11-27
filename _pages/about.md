@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**LinkedIn** <https://www.linkedin.com/in/jordan-p-u44ir83d/>
+**LinkedIn** <https://www.linkedin.com/in/threatactor/>
 
 **GitHub** <https://github.com/jordanpotti>
 
