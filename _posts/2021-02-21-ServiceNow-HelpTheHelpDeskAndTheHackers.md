@@ -14,7 +14,7 @@ ServiceNow has a feature, that when configured, allows ServiceNow customers to c
 
 This sounds great, except for how ServiceNow decided to authenticate those requests to submit system information. Curiously, the credentials for the request were stored in a public JavaScript file on all ServiceNow instances utilizing the HelpTheHelpDesk feature. 
 
-The JavaScript file can be accessed at `https://\<customername\>.servicenow.com/HelpTheHelpDesk.jsdbx`. The credentials are at the top of the script for anyone’s viewing pleasure. How this hadn’t been found before is interesting. 
+The JavaScript file can be accessed at `https://<customername>.servicenow.com/HelpTheHelpDesk.jsdbx`. The credentials are at the top of the script for anyone’s viewing pleasure. How this hadn’t been found before is interesting. 
 
 Fortunately, the password was encrypted... Unfortunately, the password was actually base64 encoded, and not encrypted as the JS file tried to convince us by prepending the base64 encoded password with `encrypt:`.
 
