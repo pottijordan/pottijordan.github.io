@@ -62,7 +62,7 @@ This approach saves time, allows us to communicate with leaders better, and prio
 2. Rank each recommendation based on **priority**. Priority should be based on a return on investment. A large return on investment would mean that the solution is relatively quick or low cost, while the cost to an attacker is vastly larger. 
 
 
-    **Some examples of high ROI solution:**\
+    **Some examples of high ROI solutions:**\
         1. Removing a credential from a public GitHub repository and rolling the credential\
         2. Shutting down an exposed script console on a production Jenkins server\
         3. Patching a WordPress vulnerability on a public server with an available exploit
@@ -72,9 +72,9 @@ This approach saves time, allows us to communicate with leaders better, and prio
         2. Remove credentials from internal source code repositories and leverage an enterprise password storage solution\
         3. Restrict workstations from communication with one another
 
-At this point, you know the actual business risk of the operation, you can explain to leadership why its critical. 
+At this point, you know the actual business risk of the operation, and you can explain to leadership why its critical. You also have a list of findings, and they are stack ranked by priority without an induvidual risk score attached to them. 
 
 ***This operation demonstrated the ability for a threat actor to infect all eighteen million subscribers to the Colorful Widgets Unlimited software. This would likely result in moderate financial impact, a critical security impact to Colorful Software Inc and its customers, as well as a high likelihood of major regulatory and compliance impact.***
 
-Once you capture leaderships attention regarding the total risk, the rest of the findings are prioritized and the individual risk isn’t so important. The high priority findings get fixed quickly to stop the bleeding, while the lower ROI recommendations are picked off as longer projects.
+Once you capture leaderships attention regarding the total risk, the individual risk of each finding isn’t so important. The high priority findings get fixed quickly to stop the bleeding, while the lower ROI recommendations are picked off as longer projects.
 
