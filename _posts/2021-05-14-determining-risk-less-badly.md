@@ -59,7 +59,7 @@ This approach saves time, allows us to communicate with leaders better, and prio
     1. For example, ransomware getting deployed might be a critical risk, medium monetary risk, loss of customer confidence, employee morale, some regulatory issues maybe, etc.
     2. Supply chain attack leading to malicious code on customers endpoints. Might only be a high risk if the operation proved that its likely only possible on a small subset of products or in edge cases. 
     3. Customer data breached could even be a medium risk if the operation focused on PII. As we know, these types of breaches don’t always result in a huge financial loss and often times are buried in the news. 
-2. Rank each recommendation based on priority. Priority should be based on a return on investment. A large return on investment would mean that the solution is relatively quick or low cost, while the cost to an attacker is vastly larger. 
+2. Rank each recommendation based on **priority**. Priority should be based on a return on investment. A large return on investment would mean that the solution is relatively quick or low cost, while the cost to an attacker is vastly larger. 
 
 
     **Some examples of high ROI solution:**\
