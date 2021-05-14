@@ -50,7 +50,7 @@ All of the questions stem from a poor presentation of what the offensive securit
 
 This approach saves time, allows us to communicate with leaders better, and prioritizes disrupting the attackers ROI. We first rank the risk of the operation as a whole, and then prioritize each finding or recommendation based on the return on investment.
 
-*Maintain focus on pragmatism by ensuring that defensive measures are likely to meaningfully disrupt the attacker value proposition of attacking you, increasing cost and friction on the attacker's ability to successfully attack you. Evaluating how defensive measures would impact the adversary's cost of attack provides both a healthy reminder to focus on the attackers perspective as well as a structured mechanism to compare the effectiveness of different mitigation options.* - Microsoft Security Best Practices
+***Maintain focus on pragmatism by ensuring that defensive measures are likely to meaningfully disrupt the attacker value proposition of attacking you, increasing cost and friction on the attacker's ability to successfully attack you. Evaluating how defensive measures would impact the adversary's cost of attack provides both a healthy reminder to focus on the attackers perspective as well as a structured mechanism to compare the effectiveness of different mitigation options.*** - Microsoft Security Best Practices
 
 ![Increase attack cost with minimal defense cost](https://docs.microsoft.com/en-us/security/compass/media/privileged-access-strategy/balance-defender--and-attacker-cost.png)
 
