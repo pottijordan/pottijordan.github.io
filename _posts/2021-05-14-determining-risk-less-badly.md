@@ -8,9 +8,7 @@ categories:
   - red team
 ---
 
-CVSS, DREAD, IVSS, TEMSL, RSS-MD.... 
-
-After a Red Team assessment, or goal based penetration test, rank all the findings based on your gut. Now spend an hour or so per finding ranking these on the industry frameworks. 
+After an offensive security assessment, rank all the findings based on your gut. Now spend an hour or so per finding ranking these on the industry frameworks. 
 
 Did you learn anything? Chances are, most of the risk scores are largely the same as what you scored based on your gut feeling. 
 
@@ -26,24 +24,24 @@ Some common factors of these risk assessments include financial loss, employee d
 When we start to rank our findings, we start to ask these types of questions depending on the scoring model we are using:
 
 
-*How much money does it cost the company if the SRE team doesn’t turn on command line logging for our nix infrastructure?*
+***How much money does it cost the company if the SRE team doesn’t turn on command line logging for our nix infrastructure?***
 
-*How many customers do we lose if IT doesn’t use a tiered approach with domain admin workstations?*
+***How many customers do we lose if IT doesn’t use a tiered approach with domain admin workstations?***
 
-*How is employee morale impacted if those developers fail to remove credentials from that source code repository?*
+***How is employee morale impacted if those developers fail to remove credentials from that source code repository?***
 
 
 None of those really make sense. Some of us start to chain findings together, or to look at the impact of the operation itself and try to factor those into the scores and overall, it begins to match our gut feelings around how bad these things are. (Which isn’t what we want)
 
 
-When we begin sharing our findings and explaining the attack path,  we get asked a set of common questions:
+When we begin sharing our findings and explaining the attack path, we get asked a set of common questions:
 
 
-*“If that weakness wasn’t there, wouldn’t the rest be null?”*
+***“If that weakness wasn’t there, wouldn’t the rest be null?”***
 
-*“If we fix the first thing on this path, would this other one still be high, or would it now be a medium?”*
+***“If we fix the first thing on this path, would this other one still be high, or would it now be a medium?”***
 
-*“What can we do now, that reduces the risk, but won’t take much work?”*
+***“What can we do now, that reduces the risk, but won’t take much work?”***
 
 
 All of the questions stem from a poor presentation of what the offensive security did/does, and how bad the issues really are. 
