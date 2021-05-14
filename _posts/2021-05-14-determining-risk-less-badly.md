@@ -8,7 +8,7 @@ categories:
   - red team
 ---
 
-CVSS, DREAD, IVSS, TEMSL, RSS-MD....  :anguished:
+CVSS, DREAD, IVSS, TEMSL, RSS-MD.... 
 
 After a Red Team assessment, or goal based penetration test, rank all the findings based on your gut. Now spend an hour or so per finding ranking these on the industry frameworks. 
 
@@ -22,7 +22,9 @@ Most organizations perform annual risk assessments. These are how the business i
 
 Some common factors of these risk assessments include financial loss, employee dissatisfaction, customer loss, regulatory or compliance impact, and of course, likelihood. When we talk about risk to senior leadership, this is the language they speak. So going from a conversation with other leaders discussing all the threats that face the business, its no wonder our “critical” Windows  Server vulnerability we reported to IT leadership gets disregarded. 
 
+
 When we start to rank our findings, we start to ask these types of questions depending on the scoring model we are using:
+
 
 *How much money does it cost the company if the SRE team doesn’t turn on command line logging for our nix infrastructure?*
 
@@ -30,15 +32,19 @@ When we start to rank our findings, we start to ask these types of questions dep
 
 *How is employee morale impacted if those developers fail to remove credentials from that source code repository?*
 
+
 None of those really make sense. Some of us start to chain findings together, or to look at the impact of the operation itself and try to factor those into the scores and overall, it begins to match our gut feelings around how bad these things are. (Which isn’t what we want)
 
+
 When we begin sharing our findings and explaining the attack path,  we get asked a set of common questions:
+
 
 *“If that weakness wasn’t there, wouldn’t the rest be null?”*
 
 *“If we fix the first thing on this path, would this other one still be high, or would it now be a medium?”*
 
 *“What can we do now, that reduces the risk, but won’t take much work?”*
+
 
 All of the questions stem from a poor presentation of what the offensive security did/does, and how bad the issues really are. 
 
@@ -49,9 +55,7 @@ This approach saves time, allows us to communicate with leaders better, and prio
 *Maintain focus on pragmatism by ensuring that defensive measures are likely to meaningfully disrupt the attacker value proposition of attacking you, increasing cost and friction on the attacker's ability to successfully attack you. Evaluating how defensive measures would impact the adversary's cost of attack provides both a healthy reminder to focus on the attackers perspective as well as a structured mechanism to compare the effectiveness of different mitigation options.* - Microsoft Security Best Practices
 
 ![Increase attack cost with minimal defense cost](https://docs.microsoft.com/en-us/security/compass/media/privileged-access-strategy/balance-defender--and-attacker-cost.png)
-https://docs.microsoft.com/en-us/security/compass/privileged-access-success-criteria
 
-****
 
 1. Use the enterprise risk model that is used be leadership to rank the risk of the **outcome** of the operation.
     1. For example, ransomware getting deployed might be a critical risk, medium monetary risk, loss of customer confidence, employee morale, some regulatory issues maybe, etc.
