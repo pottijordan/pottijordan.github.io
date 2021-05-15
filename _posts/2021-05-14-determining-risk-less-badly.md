@@ -12,13 +12,13 @@ After an offensive security assessment, rank all the findings based on your gut.
 
 Did you learn anything? Chances are, most of the risk scores are largely the same as what you scored based on your gut feeling. 
 
-Vulnerability scoring using common framework's doesn’t give us anything besides being able to back up our gut feelings about risk. Either way we get to the same conclusion, and arguably, both are inaccurate.. 
+Vulnerability scoring using common frameworks doesn’t give us anything besides being able to back up our gut feelings about risk. Either way we get to the same conclusion, and arguably, both are inaccurate.
 
 ## So how should we rank risk?
 
 Most organizations perform annual risk assessments. These are how the business identifies risk, and determines how to mitigate or reduce that risk. There is a good chance that Legal, Product, HR, Security and other leaders are part of that conversation.
 
-Some common factors of these risk assessments include financial loss, employee dissatisfaction, customer loss, regulatory or compliance impact, and of course, likelihood. When we talk about risk to senior leadership, this is the language they speak. So going from a conversation with other leaders discussing all the threats that face the business, its no wonder our “critical” Windows  Server vulnerability we reported to IT leadership gets disregarded. 
+Some common factors of these risk assessments include financial loss, employee dissatisfaction, customer loss, regulatory or compliance impact, and of course, likelihood. When we talk about risk to senior leadership, this is the language they speak. So going from a conversation with other leaders discussing all the threats that face the business, its no wonder our “critical” Windows Server vulnerability we reported to IT leadership gets disregarded. 
 
 
 When we start to rank our findings, we start to ask these types of questions depending on the scoring model we are using:
@@ -55,7 +55,7 @@ This approach saves time, allows us to communicate with leaders better, and prio
 ![Increase attack cost with minimal defense cost](https://docs.microsoft.com/en-us/security/compass/media/privileged-access-strategy/balance-defender--and-attacker-cost.png)
 
 
-1. Use the enterprise risk model that is used be leadership to rank the risk of the **outcome** of the operation.
+1. Use the enterprise risk model that is used by leadership to rank the risk of the **outcome** of the operation.
     1. For example, ransomware getting deployed might be a critical risk, medium monetary risk, loss of customer confidence, employee morale, some regulatory issues maybe, etc.
     2. Supply chain attack leading to malicious code on customers endpoints. Might only be a high risk if the operation proved that its likely only possible on a small subset of products or in edge cases. 
     3. Customer data breached could even be a medium risk if the operation focused on PII. As we know, these types of breaches don’t always result in a huge financial loss and often times are buried in the news. 
