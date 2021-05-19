@@ -8,17 +8,23 @@ categories:
   - red team
 ---
 
+*"Risk is a factor in decisions, as well as costs, interests, and even our ability to frame decisions around a risk." - Ryan McGeehan*
+
+The sole reason for ranking risk is so that decisions makers can use it as a factor for making some decision. If that risk ranking is considered bad or inflated, it won't carry much weight.
+
+***
+
 After an offensive security assessment, rank all the findings based on your gut. Now spend an hour or so per finding ranking these on the industry frameworks. 
 
 Did you learn anything? Chances are, most of the risk scores are largely the same as what you scored based on your gut feeling. 
 
-Vulnerability scoring using common frameworks doesn’t give us anything besides being able to back up our gut feelings about risk. Either way we get to the same conclusion, and arguably, both are inaccurate.
+Vulnerability scoring using common frameworks doesn’t give us anything besides being able to back up our gut feelings about risk. Either way we get to the same conclusion, and arguably, both are inaccurate. 
 
 ## So how should we rank risk?
 
-Most organizations perform annual risk assessments. These are how the business identifies risk, and determines how to mitigate or reduce that risk. There is a good chance that Legal, Product, HR, Security and other leaders are part of that conversation.
+Most organizations perform annual risk assessments. These are how the business identifies risk and determines how to mitigate or reduce that risk. There is a good chance that Legal, Product, HR, Security and other leaders are part of that conversation.
 
-Some common factors of these risk assessments include financial loss, employee dissatisfaction, customer loss, regulatory or compliance impact, and of course, likelihood. When we talk about risk to senior leadership, this is the language they speak. So going from a conversation with other leaders discussing all the threats that face the business, its no wonder our “critical” Windows Server vulnerability we reported to IT leadership gets disregarded. 
+Some common factors of these risk assessments include financial loss, employee dissatisfaction, customer loss, regulatory or compliance impact, and of course, likelihood. When we talk about risk to senior leadership, this is the language they speak. So going from a conversation with other leaders discussing all the threats that face the business, it's no wonder our “critical” Windows Server vulnerability we reported to IT leadership gets disregarded. 
 
 
 When we start to rank our findings, we start to ask these types of questions depending on the scoring model we are using:
@@ -59,7 +65,7 @@ This approach saves time, allows us to communicate with leaders better, and prio
     1. For example, ransomware getting deployed might be a critical risk, medium monetary risk, loss of customer confidence, employee morale, some regulatory issues maybe, etc.
     2. Supply chain attack leading to malicious code on customers endpoints. Might only be a high risk if the operation proved that its likely only possible on a small subset of products or in edge cases. 
     3. Customer data breached could even be a medium risk if the operation focused on PII. As we know, these types of breaches don’t always result in a huge financial loss and often times are buried in the news. 
-2. Rank each recommendation based on **priority**. Priority should be based on a return on investment. A large return on investment would mean that the solution is relatively quick or low cost, while the cost to an attacker is vastly larger. 
+2. Rank each recommendation based on **ROI**. A large return on investment would mean that the solution is relatively quick or low cost, while the cost to an attacker is vastly larger. 
 
 
     **Some examples of high ROI solutions:**\
@@ -72,9 +78,15 @@ This approach saves time, allows us to communicate with leaders better, and prio
         2. Remove credentials from internal source code repositories and leverage an enterprise password storage solution\
         3. Restrict workstations from communication with one another
 
-At this point, you know the actual business risk of the operation, and you can explain to leadership why its critical. You also have a list of findings, and they are stack ranked by priority without an induvidual risk score attached to them. 
+At this point, you know the actual business risk of the operation, and you can explain to leadership why it's critical. You also have a list of findings, and they are stack ranked by ROI without an individual risk score attached to them. 
 
 ***This operation demonstrated the ability for a threat actor to infect all eighteen million subscribers to the Colorful Widgets Unlimited software. This would likely result in moderate financial impact, a critical security impact to Colorful Software Inc and its customers, as well as a high likelihood of major regulatory and compliance impact.***
 
-Once you capture leaderships attention regarding the total risk, the individual risk of each finding isn’t so important. The high priority findings get fixed quickly to stop the bleeding, while the lower ROI recommendations are picked off as longer projects.
+Once you capture leaderships attention regarding the total risk, the individual risk of each finding isn’t so important. The high ROI findings get fixed quickly to stop the bleeding, while the lower ROI recommendations are picked off as longer projects.
 
+## Does it work better?
+
+The entire goal of having these types of discussions is to influence decisions that reduce risk. If we can reduce the paradox of choice for decision makers by having pragmatic risk discussions, it should ultimately lead to better decisions.
+
+
+*Thanks to [Ryan McGeehan](https://twitter.com/magoo) for his feedback on this article*
