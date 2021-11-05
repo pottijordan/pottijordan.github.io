@@ -8,7 +8,7 @@ categories:
   - red team
 ---
 
-**What do you think when you hear the term zero day?**
+### **What do you think when you hear the term zero day?**
 
 Most of us think of high dollar zero days that organizations such as Zerodium peddle. These types of zero days represent a minuscule amount of the zero days that one: currently exist, and two: are being released every day.
 
@@ -30,8 +30,8 @@ Training your blue team to be ready to face the unknown unknowns is what you are
 
 Spar with them, make them better. 
 
-https://www.fireeye.com/current-threats/what-is-a-zero-day-exploit.html
+[https://www.fireeye.com/current-threats/what-is-a-zero-day-exploit.html](https://www.fireeye.com/current-threats/what-is-a-zero-day-exploit.html)
 
-https://debricked.com/blog/2019/06/17/vulnerabilities-in-dependencies/
+[https://debricked.com/blog/2019/06/17/vulnerabilities-in-dependencies/](https://debricked.com/blog/2019/06/17/vulnerabilities-in-dependencies/)
 
 
