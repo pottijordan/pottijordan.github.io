@@ -65,17 +65,17 @@ Reasoning with First Principles is a much better alternative. By unpacking the f
 
 Red Teaming, Vulnerability management, Security Operations, GRC, Security Architecture. What do they all have in common? First Principle Thinking allows us to step back, and consider the core reason why we are all here. Considering the “Five-Whys” might help you get to the First Principles sooner. 
 
-Why do we have a Red Team? To identify attack paths.
-Why do we need to identify attack paths? So that we can close them before an attacker exploits them.
-Why do we need to close the attack path before attackers exploit them? To prevent a breach.
-Why do we need to prevent a breach? To protect our IP/PII/PCI/etc.
+Why do we have a Red Team? To identify attack paths.\
+Why do we need to identify attack paths? So that we can close them before an attacker exploits them.\
+Why do we need to close the attack path before attackers exploit them? To prevent a breach.\
+Why do we need to prevent a breach? To protect our IP/PII/PCI/etc.\
 Why do we need to protect that data? To keep our customer's trust and stay out of financial and legal trouble. 
 
 So according to the Five Whys, you could say a First Principle of InfoSec is revenue protection. 
 
 Another First Principle of InfoSec is that we are here to reduce the probability of breaches at a cost that the business is willing to pay. It's pretty simple. While we all play different roles at that, we can’t lose sight of the First Principles. 
 
-What are your own First Principles?
+***What are your own First Principles?***
 
 Simon Sinek coined this as Find your Why. Victor Frankl calls it Logo Therapy. It's also important to note that determining the First Principle of why you do something, is not always in line with why someone pays you to do something. You should be aware of both. 
 
