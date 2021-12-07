@@ -10,7 +10,7 @@ categories:
 
 As a regular reader of the Farnam Street project, I’ve come to appreciate mental models and how they can help us make decisions. In regards to the information security industry, since we are still likely in the “pre-Galilean” period, it suffices to say that applying mental models to the way we think about the problems we face could greatly benefit us. 
 
-According to Farnam Street, “There is no system that can prepare us for all risks”, “But being able to draw on a repertoire of mental models can help us minimize risk by understanding the forces that are at play”.
+According to Farnam Street, ***“There is no system that can prepare us for all risks”***, ***“But being able to draw on a repertoire of mental models can help us minimize risk by understanding the forces that are at play”.***
 
 It’d be hard for anyone to argue that applying mental models to Information Security is a bad idea. Applying mental models to any industry, or set of problems can only result in greater understanding. That being said, I would go a step further in that by *not* applying mental models to the Information Security industry, we may be causing more harm than good. 
 
