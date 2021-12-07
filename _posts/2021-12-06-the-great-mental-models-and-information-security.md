@@ -18,6 +18,7 @@ Galileo’s Ship is an analogy that explains that when we are part of a system, 
 
 As an Information Security practitioner, we may not have a good understanding of the problems at hand. By leveraging mental models, we can think clearer and with fewer biases about the problems we face. 
 
+
 **The Models:**
 
 1. The Map is Not the Territory
@@ -31,7 +32,7 @@ As an Information Security practitioner, we may not have a good understanding of
 9. Hanlon's Razor
 
 [**The Map is Not the Territory**](https://fs.blog/map-and-territory/)
-[](https://fs.blog/map-and-territory/)
+
 A map shows us how to get from point A, to point B. It shows contour lines, roads, and many other static data points. And in physical navigation, this works well. Roads typically don’t change once built. New cliffs or rivers don’t appear overnight. However, it's still not perfect. A map doesn’t show the weather that you will be traveling through, it doesn’t tell us the best shoes to wear for the terrain, or what tires work well in the mountain passes. It doesn’t show how much deadfall you’ll have to climb over if you’re hiking, or if a bear is on the trail. It’s simply static data that acts as an assistant. 
 
 Information Security has many such “maps”. Frameworks, career roadmaps, standards, and maturity models all provide map-like assistance to getting from point A to point B. However, each step in any given model could have its own map, and there likely is. Those are the array of footnotes for each step in implementing a framework.  And those consultants or employees, those are the guides we hire to take us from point A to point B, map or no. 
@@ -39,7 +40,7 @@ Information Security has many such “maps”. Frameworks, career roadmaps, stan
 This leads us to our next Mental Model. In this case, we need to hire a guide even though we have a map. It's like climbing Mount Everest. You can Google the best route, and even obtain highly detailed maps which contain elevations, hazards, camp locations, and a myriad of other details. However, you likely need to hire a guide. Someone who knows the terrain, someone who’s considered a “local”, someone whose Circle of Competence, includes climbing Mount Everest. 
 
 [**Circle of Competence**](https://fs.blog/circle-of-competence/)
-[](https://fs.blog/circle-of-competence/)
+
 Your Circle of Competence is pretty simple. It's what you’re good at, what's familiar to you, what you can talk all day about. Ideally, it's something you enjoy. That being said, no matter how good you are at something, nothing replaces experience. Building a Circle of Competence takes time and practice.
 
 One thing that stuck with me was something one of my first bosses in information security told me after asking for a promotion I thought was well deserved. He said, “Yes, you do operate technically at a senior level, but nothing can replace cold hard experience, and that’s something you don’t have”. I have a feeling that many people in today's culture will have a problem with that, but there is truth to it. There may be exceptions to that, but I wasn’t one of them. 
@@ -79,7 +80,7 @@ What are your own First Principles?
 Simon Sinek coined this as Find your Why. Victor Frankl calls it Logo Therapy. It's also important to note that determining the First Principle of why you do something, is not always in line with why someone pays you to do something. You should be aware of both. 
 
 [**Thought Experiment**](https://fs.blog/thought-experiment/)
-[](https://fs.blog/thought-experiment/)
+
 Nothing is original. However, just because something has been tried before, and failed, does not mean that it will fail if you try it. Cyber Security is not a “solved” industry. We need Thought Experiments, which inevitably lead to innovation. 
 
 John Kindervag, the pioneer of Zero Trust, was likely playing around with a Thought Experiment when he came up with the idea. 
