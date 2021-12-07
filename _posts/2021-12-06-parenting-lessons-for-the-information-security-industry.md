@@ -8,7 +8,6 @@ categories:
   - ramblings
 ---
 
-# Parenting Lessons for the Information Security Industry
 In Peter Thiel’s book *Zero to One: Notes on Startups, or How to Build the Future*, he talks about the best interview question. The question is this: **“What important truth do very few people agree with you on?”**
 
 Something I’ve had a gut feeling about for a while without any justification is this: The information security industry is causing more harm than good.
