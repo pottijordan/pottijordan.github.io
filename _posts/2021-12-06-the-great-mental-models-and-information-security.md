@@ -31,7 +31,7 @@ As an Information Security practitioner, we may not have a good understanding of
 8. Occams Razor
 9. Hanlon's Razor
 
-[**The Map is Not the Territory**](https://fs.blog/map-and-territory/)
+## [**The Map is Not the Territory**](https://fs.blog/map-and-territory/)
 
 A map shows us how to get from point A, to point B. It shows contour lines, roads, and many other static data points. And in physical navigation, this works well. Roads typically don’t change once built. New cliffs or rivers don’t appear overnight. However, it's still not perfect. A map doesn’t show the weather that you will be traveling through, it doesn’t tell us the best shoes to wear for the terrain, or what tires work well in the mountain passes. It doesn’t show how much deadfall you’ll have to climb over if you’re hiking, or if a bear is on the trail. It’s simply static data that acts as an assistant. 
 
@@ -39,7 +39,7 @@ Information Security has many such “maps”. Frameworks, career roadmaps, stan
 
 This leads us to our next Mental Model. In this case, we need to hire a guide even though we have a map. It's like climbing Mount Everest. You can Google the best route, and even obtain highly detailed maps which contain elevations, hazards, camp locations, and a myriad of other details. However, you likely need to hire a guide. Someone who knows the terrain, someone who’s considered a “local”, someone whose Circle of Competence, includes climbing Mount Everest. 
 
-[**Circle of Competence**](https://fs.blog/circle-of-competence/)
+## [**Circle of Competence**](https://fs.blog/circle-of-competence/)
 
 Your Circle of Competence is pretty simple. It's what you’re good at, what's familiar to you, what you can talk all day about. Ideally, it's something you enjoy. That being said, no matter how good you are at something, nothing replaces experience. Building a Circle of Competence takes time and practice.
 
@@ -47,9 +47,12 @@ One thing that stuck with me was something one of my first bosses in information
 
 Information Security cannot be your Circle of Competence. 
 
+
 It’d be like saying airplanes are your Circle of Competence. What kind? Flying them? Fixing them? Jets? Prop planes?  Aerodynamics? Engineering? Warfare? 
 
+
 There is too much to learn, the domain is simply too wide.
+
 
 So how do you find your Circle Of Competence? That’s sort of like asking “What do I want to be when I grow up?”. You find it by trial and error. Hopefully, educated trial and error. For example, if you don’t like heights, maybe don’t try and be a windmill repairman. 
 
@@ -57,7 +60,7 @@ Moving ahead to where you found something you love, double down on it. If you lo
 
 But be careful, this isn’t an end goal. A Circle of Competence isn’t something you just attain. You must continually improve on it. [The Goldilocks Rule](https://jamesclear.com/goldilocks-rule) states that humans experience peak motivation when working on tasks that are right on the edge of their current abilities. So continue pushing the boundaries of your circle. 
 
-[**First Principles Thinking**](https://fs.blog/first-principles/)
+## [**First Principles Thinking**](https://fs.blog/first-principles/)
 
 Have you ever had a boss that wouldn’t buy into your ideas unless they saw it done before? There is a reason why social proof is such an effective sales strategy. [Social proof is one of the most powerful negotiating techniques](https://www.negotiationtraining.com.au/articles/encourage-social-proof/), however, you’ll [never innovate if it’s the only method by which you make decisions.](https://fs.blog/mental-model-social-proof/)  
 
@@ -65,11 +68,11 @@ Reasoning with First Principles is a much better alternative. By unpacking the f
 
 Red Teaming, Vulnerability management, Security Operations, GRC, Security Architecture. What do they all have in common? First Principle Thinking allows us to step back, and consider the core reason why we are all here. Considering the “Five-Whys” might help you get to the First Principles sooner. 
 
-Why do we have a Red Team? To identify attack paths.\
-Why do we need to identify attack paths? So that we can close them before an attacker exploits them.\
-Why do we need to close the attack path before attackers exploit them? To prevent a breach.\
-Why do we need to prevent a breach? To protect our IP/PII/PCI/etc.\
-Why do we need to protect that data? To keep our customer's trust and stay out of financial and legal trouble. 
+**Why do we have a Red Team?** To identify attack paths.\
+**Why do we need to identify attack paths?** So that we can close them before an attacker exploits them.\
+**Why do we need to close the attack path before attackers exploit them?** To prevent a breach.\
+**Why do we need to prevent a breach?** To protect our IP/PII/PCI/etc.\
+**Why do we need to protect that data?** To keep our customer's trust and stay out of financial and legal trouble. 
 
 So according to the Five Whys, you could say a First Principle of InfoSec is revenue protection. 
 
@@ -79,7 +82,7 @@ Another First Principle of InfoSec is that we are here to reduce the probability
 
 Simon Sinek coined this as Find your Why. Victor Frankl calls it Logo Therapy. It's also important to note that determining the First Principle of why you do something, is not always in line with why someone pays you to do something. You should be aware of both. 
 
-[**Thought Experiment**](https://fs.blog/thought-experiment/)
+## [**Thought Experiment**](https://fs.blog/thought-experiment/)
 
 Nothing is original. However, just because something has been tried before, and failed, does not mean that it will fail if you try it. Cyber Security is not a “solved” industry. We need Thought Experiments, which inevitably lead to innovation. 
 
@@ -91,7 +94,7 @@ Before we can do anything with that thought experiment, we need to try and prove
 
 John Kindervag likely decided that yes, this concept is possible. The technology exists to do this, and hence, Zero Trust was born.
 
-[**Second-Order Thinking**](https://fs.blog/second-order-thinking)
+## [**Second-Order Thinking**](https://fs.blog/second-order-thinking)
 
 How many people do you know that owe payments on most of what they own? While it's possible they’ve never considered the difference between an asset and a liability, it's also likely that they’ve never thought beyond the monthly payment. Second-Order Thinking forces us to consider what comes after the initial result of a decision. 
 
@@ -103,7 +106,7 @@ Second-Order thinking would have likely led us to consider but then what?
 
 What will that team do the next time they face a security decision? You’ve just incentivized them to minimize their relationship with security. The next time they have to make a security decision (or not), they may no longer plan on including security if they can help it. 
 
-[**Probabilistic Thinking**](https://fs.blog/probabilistic-thinking/)
+## [**Probabilistic Thinking**](https://fs.blog/probabilistic-thinking/)
 
 Risk is a big industry. It's a subset of InfoSec as a whole, and yet, it *is* InfoSec. And no one really understands it. It might be because those that don’t understand it don’t think about it, and those that do think about, are thinking about it too hard. 
 
@@ -120,7 +123,7 @@ While we can’t predict accurately how likely a vulnerability will lead to a br
 
 On this subject, I’d love to see some research around metaprobability in regards to various risk scoring frameworks. My hypothesis is that is not very accurate. 
 
-[**Inversion**](https://fs.blog/inversion/) 
+## [**Inversion**](https://fs.blog/inversion/) 
 
 This is similar to [Premortem Analysis](https://hbr.org/2007/09/performing-a-project-premortem). 
 
@@ -132,7 +135,7 @@ To begin, you would make sure all security decisions are routed through your org
 
 Now that we’ve identified the things you can do to get to an undesirable state, we now know what to avoid, or at least be careful with. 
 
-[**Occams Razor**](https://fs.blog/occams-razor/)
+## [**Occams Razor**](https://fs.blog/occams-razor/)
 
 Occams Razor argues that the simplest answer is usually correct. How will an attacker breach your organization? It’s unlikely that it will be a zero-day, and it’ll likely be a spear phish, or an unpatched server, or some other obvious weakness. This leads us to the belief that doing the ordinary security work well, will go much further than chasing the latest hotness.
 
@@ -144,13 +147,13 @@ Many of those organizations worried about the latest threats aren’t doing the 
 
 Jim Alkove, the Chief Trust Officer at SalesForce calls this “doing the common uncommonly well”.
 
-[**Hanlon's Razor**](https://fs.blog/mental-model-hanlons-razor/) 
+## [**Hanlon's Razor**](https://fs.blog/mental-model-hanlons-razor/) 
 
 You may have heard the saying “Stupidity is the same as evil if you judge by the results.’ Hanlon's Razor is taking the results of something gone wrong, and defaulting to blame it on stupidity. 
 
 That organization that got breached probably wasn’t purposefully malicious. Those engineers that push terrible code, aren’t evil. No one is (probably) out to get their customers. I think everyone can agree that we don’t want breaches to happen.
 
-HanlHanlon'sor helps us understand that more times than not, mistakes happen through innocent intentions. 
+Hanlon'sor helps us understand that more times than not, mistakes happen through innocent intentions. 
 
 As an information security professional, it's your job to prevent those mistakes from happening, through education and mechanisms designed to reduce risk. 
 
