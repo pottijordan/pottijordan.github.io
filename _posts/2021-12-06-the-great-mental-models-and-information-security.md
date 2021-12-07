@@ -8,7 +8,6 @@ categories:
   - ramblings
 ---
 
-# The Great Mental Models and Information Security
 As a regular reader of the Farnam Street project, I’ve come to appreciate mental models and how they can help us make decisions. In regards to the information security industry, since we are still likely in the “pre-Galilean” period, it suffices to say that applying mental models to the way we think about the problems we face could greatly benefit us. 
 
 According to Farnam Street, “There is no system that can prepare us for all risks”, “But being able to draw on a repertoire of mental models can help us minimize risk by understanding the forces that are at play”.
