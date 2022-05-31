@@ -1,5 +1,5 @@
 ---
-title: Career Progression Mindset
+title: Career Mindset Spectrum
 author: jp
 type: post
 date: 2022-05-31T20:37:56+00:00
@@ -8,7 +8,6 @@ categories:
   - ramblings
 ---
 
-# Career Mindset Spectrum
 Career progression requires a shift of mindset. Having the wrong mindset, at the wrong time, isn’t necessarily bad, it just means that traditional career progression may not apply. Adopting the mindset of the next rung of an organizations ladder will expedite your progress. 
 
 
